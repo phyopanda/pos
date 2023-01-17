@@ -1,0 +1,7 @@
+{
+    "languages" : [
+        { "label": "landingPage.unicode", "value": "unicode" },
+        { "label": "landingPage.zawgyi", "value": "zawgyi" },
+        { "label": "landingPage.english", "value": "en" }
+    ]
+}

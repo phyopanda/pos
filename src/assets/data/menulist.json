@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "label": "nav-dashboard",
+        "url": "/dashboard"
+    },
+    {
+        "id": 2,
+        "label": "nav-inventory",
+        "url": "/inventory"
+    },
+    {
+        "id": 3,
+        "label": "nav-sale",
+        "url": "/sale"
+    },
+    {
+        "id": 4,
+        "label": "nav-account",
+        "url": "/account"
+    },
+    {
+        "id": 5,
+        "label": "nav-profile",
+        "url": "/profile"
+    },
+    {
+        "id": 6,
+        "label": "nav-setting",
+        "url": "/setting"
+    },
+    {
+        "id": 7,
+        "label": "nav-logout",
+        "url": "/logout"
+    }
+]

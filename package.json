@@ -1,0 +1,127 @@
+{
+  "name": "agritechpos",
+  "productName": "AgriTech POS",
+  "version": "1.0.1",
+  "description": "Agricultural Equipment POS Software",
+  "author": "InnoScript <dev@agritechpos.com>",
+  "keywords": [
+    "Agriculture",
+    "POS",
+    "InnoScript"
+  ],
+  "license": "ISC",
+  "build": {
+    "appId": "com.agritech.desktop",
+    "productName": "AgriTech POS",
+    "copyright": "InnoScript Co.,Ltd",
+    "buildVersion": "1",
+    "directories": {
+      "app": ".",
+      "output": "release",
+      "buildResources": "resources"
+    },
+    "files": [
+      "./build/**/*",
+      "./src/**/*",
+      "./main.js",
+      "./preload.js",
+      "./index.html"
+    ],
+    "linux": {
+      "target": "AppImage",
+      "category": "Utility"
+    },
+    "win": {
+      "asar": true,
+      "target": "nsis",
+      "icon": "./build/assets/icons/logo.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": true,
+      "runAfterFinish": false,
+      "warningsAsErrors": true,
+      "deleteAppDataOnUninstall": true,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "displayLanguageSelector": true,
+      "menuCategory": "InnoSript"
+    }
+  },
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "watch": "webpack --config webpack.common.js --watch",
+    "pack": "rm -rf build && rm -rf release && webpack --config webpack.common.js && electron-builder --win",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps",
+    "react-build": "webpack --config webpack.common.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubota-POS/desktop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kubota-POS/desktop/issues"
+  },
+  "homepage": "https://github.com/kubota-POS/desktop#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
+    "@faker-js/faker": "^6.0.0-alpha.7",
+    "@reduxjs/toolkit": "^1.7.1",
+    "babel-loader": "^8.2.3",
+    "copy-webpack-plugin": "^10.2.0",
+    "css-loader": "^6.5.1",
+    "electron": "^16.0.7",
+    "electron-builder": "^22.14.13",
+    "electron-packager": "^15.4.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "express": "^4.17.2",
+    "redux-devtools-extension": "^2.13.9",
+    "sass": "^1.45.1",
+    "sass-loader": "^12.4.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "chart.js": "^3.7.1",
+    "crypto-js": "^4.1.1",
+    "file-saver": "^2.0.5",
+    "generate-password": "^1.7.0",
+    "html2canvas": "^1.4.1",
+    "i18next": "^21.6.6",
+    "jsonwebtoken": "^8.5.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.23",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.3.3",
+    "numeral": "^2.0.6",
+    "qrcode.react": "^1.0.1",
+    "react": "^17.0.2",
+    "react-barcode": "^1.4.1",
+    "react-bootstrap": "^2.1.1",
+    "react-bootstrap-icons": "^1.7.2",
+    "react-chartjs-2": "^4.0.1",
+    "react-data-table-component": "^7.4.6",
+    "react-date-range": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.15.3",
+    "react-icons": "^4.3.1",
+    "react-redux": "^7.2.6",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^5.0.0",
+    "react-to-print": "^2.14.4",
+    "redux": "^4.1.2",
+    "sequelize": "^6.13.0",
+    "uuid": "^8.3.2",
+    "wine": "^0.9.13",
+    "xlsx": "^0.18.2"
+  }
+}

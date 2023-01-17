@@ -1,0 +1,12 @@
+.back-error {
+    cursor: pointer;
+    color: #01a3a6;
+}
+
+.error-title {
+    color: #01a3a6;
+}
+
+.error-message-description {
+    color: #6d6d6d;
+}

@@ -1,0 +1,91 @@
+{
+    "trans" : {
+        "app": {
+            "enter_btn" : "ဆော့၀ဲထဲသို့၀င်မည်",
+            "register_btn": "စာရင်းသွင်းရန်",
+            "register_title": "ဆော့၀ဲအသုံးပြုရန် မှတ်ပုံတင်မည်",
+            "app_exit": "Logout"
+        },
+        "register" : {
+            "user_name" : "အသုံပြုသူ၏နာမည် အပြည့်အစုံထည့်ရန်",
+            "user_phone": "ဖုန်းနံပါတ်ထည့်ရန်",
+            "user_email": "အီးမေး(လ်)လိပ်စာထည့်ရန်",
+            "user_address": "လိပ်စာထည့်ရန်",
+            "shop_name": "ဆိုင်နာမည်ထည့်ရန်",
+            "ok": "ပြုလုပ်မည်"
+        },
+        "auth" : {
+            "login" : {
+                "title" : "ဆော့၀ဲထဲသို့၀င်မည်",
+                "btn_login" : "၀င်မည်",
+                "btn_reset": "စကား၀ှက်ပြောင်းရန်",
+                "input_username": "အသုံးပြုသူ၏နာမည်ထည့်ရန်",
+                "input_password": "စကား၀ှက်ထည့်ရန်"
+            },
+            "validate" : {
+                "valid_credential" : "အသုံးပြုသူ၏ နာမည်နှင့်စကား၀ှက် မှန်ကန်မှုမရှိပါ",
+                "valid_login_title" : "အကောင့်ထဲ၀င်ရောက်မှုမအောင်မြင်ပါ"
+            }
+        },
+        "notification" : {
+            "app_start_title" : "Kubota POS ဆော့၀ဲအသုံးပြုရန် ဖွင့်လင့်ခြင်းအောင်မြင်ပါသည်",
+            "app_start_message": "ဆော့၀ဲအားအသုံးပြုရန် မိမိ၏အကောင့်ထဲသို၀င်ရောက်ရန်လိုအပ်ပါသည်"
+        }
+    },
+    "networkError" : {
+        "title" : "ဆာဗာနှင့်ချိတ်ဆက်မှုချွတ်ယွင်းနေပါသည်",
+        "message": "ဆာဗာချိတ်ဆက်မှု ထပ်မံစစ်ဆေးရန် သဘောတူပါသည်"
+    },
+    "dialogBtn": {
+        "ok": "ပြုလုပ်မည်"
+    },
+    "menu" : [
+        {
+            "label": "အရောင်းဘောင်ချာဖွင့်ခြင်း",
+            "link": "/dashboard"
+        },
+        {
+            "label": "ပစ္စည်းစာရင်း",
+            "link": "/inventory"
+        },
+        {
+            "label": "အရောင်းစာရင်း",
+            "link": "/sell-report"
+        },
+        {
+            "label": "အရောင်းစာရေးများ",
+            "link": "/user"
+        },
+        {
+            "label": "ဆက်တင်",
+            "link": "/setting"
+        },
+        {
+            "label": "Logout",
+            "link": "/login"
+        }
+    ],
+    "pages": {
+        "setting": {
+            "header_title": "ဆက်တင်များ",
+            "sub_menu": [
+                {
+                    "label": "ဆာဗာချိတ်ဆက်မှုများ",
+                    "component": "network"
+                },
+                {
+                    "label": "ဘာသာစကား",
+                    "component": "language"
+                },
+                {
+                    "label": "အဆင့်မြင့်တင်ခြင်းများ",
+                    "component": "update"
+                },
+                {
+                    "label": "လိုင်စင်",
+                    "component": "license"
+                }
+            ]
+        }
+    }
+}

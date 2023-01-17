@@ -1,0 +1,26 @@
+.lang-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.lang-title {
+    color: #fff;
+    font-size: medium;
+}
+
+.lang-input-group {
+    width: 100%;
+}
+
+.lang-input-group > select {
+    width: 100%;
+    border-radius: 0px!important;
+}
+
+.lang-input-group > select:focus {
+    outline: none !important;
+    box-shadow: 0 0 0px rgba(0,0,0,0);
+}

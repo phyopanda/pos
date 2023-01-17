@@ -1,0 +1,230 @@
+/* Title & Header && Label */
+.title-default,
+.label-default {
+	color: #333;
+}
+
+.title-primary,
+.label-primary {
+	color: #2759D4!important;
+}
+
+.title-secondary,
+.label-secondary {
+	color: #4E8D28!important;
+}
+
+.title,
+.label {
+	color: #01a3a6;
+}
+
+.title,
+.title-default,
+.title-primary,
+.title-secondary {
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+
+/* Button */
+.btn {
+	border-radius: 0px;
+	color: #fff;
+	cursor: pointer;
+	padding: 5px 10px 5px 10px;
+}
+
+.btn-primary {
+	background-color: #2759D4 !important;
+	color: #fff;
+}
+
+.btn-primary:hover {
+	background-color: #4E8D28 !important;
+}
+
+.btn-danger {
+	background-color: #dc3545 !important;
+	color: #fff;
+}
+
+.btn-border {
+	border: 2px solid #4E8D28;
+	background-color: transparent !important;
+	color: #4E8D28;
+}
+
+.btn-border-right {
+	border-radius: 0px 3px 3px 0px;
+}
+
+.btn-border:hover {
+	border: 2px solid #4E8D28;
+	color: #4E8D28;
+}
+
+.btn-border:active {
+	color: #4E8D28;
+}
+
+.btn-social:hover {
+	color: #4E8D28 !important;
+}
+
+.btn-nav {
+	border: 1px solid #fff !important;
+	justify-items: center;
+}
+
+.btn-nav-active {
+	background-color: #4E8D28 !important;
+}
+
+.btn-nav:hover {
+	background-color: #4E8D28 !important;
+}
+
+.btn-search {
+	margin-top: 0px;
+}
+
+.btn-default {
+	background-color: #01a3a6;
+	border: 1px solid #01a3a6;
+}
+
+.btn-success {
+	background-color: #4E8D28!important;
+	color: #fff;
+}
+
+.btn-default:active {
+	background-color: rgba(1, 163, 166, 0.5);
+}
+
+.btn-is-error {
+	background-color: rgba(1, 163, 166, 0.5);
+}
+
+.btn-check:active+.btn-primary:focus,
+.btn-check:checked+.btn-primary:focus,
+.btn-border:active+.btn-primary:focus,
+.btn-border:checked+.btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show>.btn-primary.dropdown-toggle:focus,
+.btn-check:focus+.btn-primary,
+.btn-primary:focus {
+	box-shadow: initial !important;
+}
+
+.btn-width {
+	width: 373px;
+}
+
+.btn-icon {
+	color: #2759D4;
+	cursor: pointer;
+}
+
+.btn-fix-width {
+	width: 253px;
+}
+
+/** Input **/
+.form-control,
+textarea,
+textarea.form-control,
+input.form-control,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+[type="text"].form-control,
+[type="password"].form-control,
+[type="email"].form-control,
+[type="tel"].form-control,
+[contenteditable].form-control {
+	border-radius: 0px !important;
+}
+
+textarea:focus,
+textarea.form-control:focus,
+input.form-control:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+[type="text"].form-control:focus,
+[type="password"].form-control:focus,
+[type="email"].form-control:focus,
+[type="tel"].form-control:focus,
+[contenteditable].form-control:focus {
+	box-shadow: initial !important;
+}
+
+.form-group-input {
+	height: 60px !important;
+	margin-bottom: 5px;
+}
+
+.form-control:focus {
+	outline: none !important;
+	border-color: 0px;
+	box-shadow: initial !important;
+	border-radius: 0px !important;
+}
+
+.serial-key-input {
+	width: 100px !important;
+	margin-bottom: 15px;
+}
+
+.textarea-input {
+	width: 100% !important;
+}
+
+/* Card */
+.description-card {
+    background-color: rgba(255,255,255,0.8);
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: large;
+}
+
+.card-default {
+	background-color: #2759D4;
+	color: #fff;
+}
+
+.card-success {
+	background-color: #4E8D28;
+	color: #fff;
+}
+
+.card-danger {
+	background-color: red;
+	color: #fff;
+}
+
+.card-info {
+	background-color: #01a3a6;
+	color: #fff;
+}
+
+.card-warm {
+	background-color: #ffd314;
+	color: #fff;
+}
+
+.label-count {
+	font-size: 35px;
+}
+
+.large-btn{
+	width: 560px;
+	height: 50px;
+}

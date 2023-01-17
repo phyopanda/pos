@@ -1,0 +1,159 @@
+@font-face {
+	font-family: "Pyidaungsu";
+	src: url(../fonts/Pyidaungsu-Bold.woff);
+}
+
+@font-face {
+	font-family: "ZawgyiOne";
+	src: url(../fonts//Zawgyi-One.woff);
+}
+
+body {
+	font-family: "Pyidaungsu" !important;
+}
+
+/* Font */
+.zawgyi {
+	font-family: "ZawgyiOne" !important;
+}
+
+.unicode {
+	font-family: "Pyidaungsu" !important;
+	font-weight: 800 !important;
+}
+
+/* App Scrollbar */
+
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+.logo {
+	width: 300px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.text {
+	color: #333;
+	font-size: 18px;
+}
+
+.back-arrow {
+	border-radius: 50%;
+	border: 1px solid #2759D4;
+	padding: 5px;
+	color: #2759D4;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.full-w {
+	width: 100%;
+}
+
+.customer-dropdown-wrapper,
+.item-dropdown-wrapper {
+	z-index: 1;
+	position: absolute;
+	background-color: #2759D4;
+	width: 100%;
+	max-height: 100px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+.item-dropdown-wrapper {
+	width: 100% !important;
+}
+
+.customer-dropdown-wrapper::-webkit-scrollbar,
+.item-dropdown-wrapper::-webkit-scrollbar {
+	width: 8px !important;
+	background-color: #5b5b5b !important;
+}
+
+.customer-dropdown-wrapper::-webkit-scrollbar-thumb,
+.item-dropdown-wrapper::-webkit-scrollbar-thumb {
+	background: #4E8D28;
+}
+
+.dropdown-item>span {
+	color: #fff;
+	font-size: medium;
+}
+
+.dropdown-item:hover,
+.dropdown-item:active,
+.dropdown-item:focus {
+	background-color: #4E8D28 !important;
+	border: 0px !important;
+	outline: 0;
+}
+
+.item-autosearch-input {
+	width: 100%;
+}
+
+.clickable {
+	background-color: #2759D4;
+	color: #fff;
+	cursor: pointer;
+	padding: 0px 10px 0px 10px;
+	border-radius: 3px;
+}
+
+.clickable:hover {
+	background-color: #4E8D28;
+}
+
+.selected-item-table>tbody>tr>td:last-child,
+.selected-item-table>thead>tr>td:last-child {
+	min-width: 100px;
+}
+
+.request-item-table-input {
+	max-width: 150px;
+}
+
+.save-invoice-model {
+	max-width: 50% !important;
+}
+
+.green {
+	color: green;
+}
+
+.red {
+	color: red;
+}
+
+@media only screen and (max-width: 1024px) {
+	.logo {
+		width: 200px;
+	}
+}
+
+.bought-invoice-box {
+	margin-bottom: 10px;
+	height: 30px;
+	width: 100%;
+	border: 1px;
+	border-color: #01a3a6;
+	border-style: solid;
+	border-radius: 5px;
+	background-color: whitesmoke;
+}
+
+
+.align-self-end {
+	align-self: flex-end;
+}
+
+.loading {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}

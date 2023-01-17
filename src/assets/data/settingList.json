@@ -1,0 +1,15 @@
+[
+
+    {
+        "label": "setting-shop",
+        "component": "ShopComponent"
+    },
+    {
+        "label": "setting-number-specification",
+        "component": "NumberSpecificationComponent"
+    },
+    {
+        "label": "setting-device",
+        "component": "DeviceComponent"
+    }
+]
